@@ -1,3 +1,7 @@
+#do pip install pyautogui
+#for this to work
+#do pip install webbrowser
+#for this to work
 import pyautogui
 import time
 import random
