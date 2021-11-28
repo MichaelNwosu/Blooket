@@ -14,11 +14,13 @@ https://www.blooket.com/set/619508d102453e7074dcd9a9
 """)
 
 num = int(input("Questions Answserd: "))
-
 time.sleep(2)
-for i in range(num):
+
+summ=num*3
+
+for i in range(summ):
     pyautogui.press("space")
-    time.sleep(0.001)
+    time.sleep(0.2)
     pyautogui.press("1")
-    time.sleep(0.001)
+    time.sleep(0.2)
 
